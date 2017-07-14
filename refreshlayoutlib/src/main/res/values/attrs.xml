@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RefreshLayout">
+        <attr name="refreshlayout_header_layout" format="reference"/>
+        <attr name="refreshlayout_footer_layout" format="reference"/>
+        <attr name="refreshlayout_loading_img_one" format="reference"/>
+        <attr name="refreshlayout_loading_img_two" format="reference"/>
+        <attr name="refreshlayout_loading_img_three" format="reference"/>
+    </declare-styleable>
+</resources>

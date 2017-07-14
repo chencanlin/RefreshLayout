@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="refreshlayout_header_viewflipper_id" type="id"/>
+    <item name="refreshlayout_footer_imageview_id" type="id"/>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RefreshLayout</string>
+    <string name="pull_down_title">让购物更便捷</string>
+    <string name="pull_down_desc">下拉刷新...</string>
+    <string name="pull_down_release_desc">松开刷新...</string>
+    <string name="pull_down_refreshing_desc">刷新中...</string>
+</resources>

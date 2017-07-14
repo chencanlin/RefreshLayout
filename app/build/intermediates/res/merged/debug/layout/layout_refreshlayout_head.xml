@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/common_background"
+                android:minHeight="66dp">
+
+    <LinearLayout
+        android:id="@+id/ll_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_content"
+            android:text="@string/pull_down_title"
+            android:textSize="13sp"/>
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_gray"
+            android:text="@string/pull_down_desc"
+            android:textSize="11sp"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+    <ViewFlipper
+        android:id="@id/refreshlayout_header_viewflipper_id"
+        android:layout_width="34dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:autoStart="false"
+        android:flipInterval="120"
+        android:layout_toLeftOf="@+id/ll_text">
+
+        <ImageView
+            android:id="@+id/iv_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            />
+
+        <ImageView
+            android:id="@+id/iv_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            />
+
+        <ImageView
+            android:id="@+id/iv_three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            />
+
+    </ViewFlipper>
+
+</RelativeLayout>

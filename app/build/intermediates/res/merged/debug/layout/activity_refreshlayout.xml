@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_background">
+
+    <com.ccl.perfectisshit.refreshlayout.view.RefreshLayout
+        android:id="@+id/refreshlayout_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:refreshlayout_loading_img_one="@drawable/loading_view_01"
+        app:refreshlayout_loading_img_two="@drawable/loading_view_02"
+        app:refreshlayout_loading_img_three="@drawable/loading_view_03">
+
+        <com.ccl.perfectisshit.refreshlayout.view.PullableScrollView
+            android:id="@+id/psv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+
+                <include layout="@layout/layout_item"/>
+            </LinearLayout>
+        </com.ccl.perfectisshit.refreshlayout.view.PullableScrollView>
+    </com.ccl.perfectisshit.refreshlayout.view.RefreshLayout>
+
+    <com.ccl.perfectisshit.refreshlayout.view.RefreshLayout
+        android:id="@+id/refreshlayout_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:refreshlayout_header_layout="@layout/layout_refreshlayout_head">
+
+        <com.ccl.perfectisshit.refreshlayout.view.PullableListView
+            android:id="@+id/plv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            />
+    </com.ccl.perfectisshit.refreshlayout.view.RefreshLayout>
+
+    <com.ccl.perfectisshit.refreshlayout.view.RefreshLayout
+        android:id="@+id/refreshlayout_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:refreshlayout_loading_img_one="@drawable/loading_view_01"
+        app:refreshlayout_loading_img_two="@drawable/loading_view_02"
+        app:refreshlayout_loading_img_three="@drawable/loading_view_03">
+
+        <com.ccl.perfectisshit.refreshlayout.view.PullableImageView
+            android:id="@+id/piv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sf"
+            />
+    </com.ccl.perfectisshit.refreshlayout.view.RefreshLayout>
+</RelativeLayout>

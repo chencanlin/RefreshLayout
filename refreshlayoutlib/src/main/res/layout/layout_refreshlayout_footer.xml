@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/scroll_bottom_view"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/common_background"
+    >
+
+    <ImageView
+        android:id="@id/refreshlayout_footer_imageview_id"
+        android:layout_width="188dp"
+        android:layout_height="33dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_refreshlayout_footer"
+        />
+
+</RelativeLayout>
