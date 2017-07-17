@@ -21,7 +21,7 @@
 
 **效果预览**
 
-![](http://i.imgur.com/35AGb8v.gif)
+![](http://i.imgur.com/XAVlzMk.gif)
 
 **使用**
     
