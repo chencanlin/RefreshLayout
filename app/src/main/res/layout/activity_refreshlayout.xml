@@ -100,7 +100,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="fitCenter"
-            android:src="@drawable/sf"
+            android:src="@drawable/ssf"
             />
     </com.ccl.perfectisshit.refreshlayout.view.RefreshLayout>
 </RelativeLayout>
