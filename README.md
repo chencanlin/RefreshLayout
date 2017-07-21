@@ -67,5 +67,5 @@ app:refreshlayout_loading_img_three="@drawable/loading_view_03"
 
 headerlayout 必须有viewflipper id必须为refreshlayout_header_viewflipper_id 可以直接引用android:id="@id/refreshlayout_header_viewflipper_id"
 
-footerlayout不许包含子类imageview id为refreshlayout_footer_imageview_id 可以直接引用
+footerlayout必须包含子类imageview id为refreshlayout_footer_imageview_id 可以直接引用
 android:id="@id/refreshlayout_footer_imageview_id"
